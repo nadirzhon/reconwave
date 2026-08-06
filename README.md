@@ -1,5 +1,7 @@
 # RECONWAVE
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 Asynchronous attack-surface reconnaissance engine for bug bounty and red team.
 
 RECONWAVE discovers a target's entire external attack surface, resolves and probes every asset in parallel, builds an asset relationship graph, and diffs results over time so you get alerted when new subdomains appear.
@@ -59,3 +61,9 @@ Passive sources run in parallel, feed into async DNS resolution (semaphore-throt
 ## License
 
 MIT. For authorized security testing and bug bounty programs only.
+
+## Responsible use
+
+This project is published for **defensive research, education, and authorized security testing only**.
+Use it exclusively on systems you own or have explicit written permission to assess. The author
+assumes no liability for misuse. See `SECURITY.md` for the disclosure policy.
